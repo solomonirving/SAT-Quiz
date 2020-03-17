@@ -1,0 +1,218 @@
+body{
+    padding: 0;
+    margin: 0 0 0 0;
+    border: 0;
+    font-family: "roboto", sans-serif;
+}
+li:hover{
+    background-color: #e2ce9f;
+}
+.question-1-submit:hover{
+    background-color: #e2ce9f
+}
+.submit:hover{
+    background-color: #e2ce9f
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    grid-template-areas:
+    "title" 
+    "question-1"
+    "question-2"
+    "question-3";
+    justify-items: center;
+    grid-gap: 4%;
+}
+.title{
+    grid-area: title;
+}
+.title-p{
+    font-size: 2.5rem;
+    margin: 20% 0 0 0;
+}
+.question-1{
+    grid-area: question-1;
+    border: solid rgb(8, 97, 41);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+    width: 80%;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.question-1-submit{
+    font-size: .7em;
+    font-weight: 500;
+    height: 3vh;
+    margin: 1% 0 4% 0;
+    border-radius: 5px;
+    border: solid gray 1px;
+    outline: none;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    background: white;
+}
+.question-title-box{
+    display: flex;
+    background: rgb(8, 97, 41);
+    height: 50px;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.question-title{
+    color: white;
+    align-items: center;
+    margin: 0;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 5%;
+    width: 100%;
+}
+hr{
+    border: 1px solid rgb(8, 97, 41);
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid rgb(8, 97, 41) 2px;
+    text-align: left;
+    margin: 2% 3% 2% 3%;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 8vh;
+    cursor: pointer;
+}
+.options{
+    border: solid #996d05 2px;
+    background: #996d05;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 2% 2% 2% 2%;
+}
+
+.question-2{
+    grid-area: question-2;
+    border: solid rgb(8, 97, 41);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+    width: 80%;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.input{
+    height: 25vh;
+}
+
+.row-1{
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.label{
+    font-size: 1em;
+    margin: 0;
+}
+.row-2{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.text-box{
+    width: 200px;
+    height: 3vh;
+    margin: 0;
+    border-radius: 5px;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: solid rgb(8, 97, 41) 2px;
+    padding: 0 5% 0 5%;
+    outline: none;
+}
+.row-3{
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+.submit{
+    font-size: .7em;
+    font-weight: 500;
+    height: 3vh;
+    margin: 0;
+    border-radius: 5px;
+    border: solid gray 1px;
+    cursor: pointer;
+    outline: none;
+}
+.question-3{
+    grid-area: question-3;
+    border: solid rgb(8, 97, 41);
+    width: 80%;
+    text-align: center;
+    margin: 0 0 10% 0;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.input-p{
+    padding: 0;
+    margin: 0;
+}
+.file-button{
+    font-size: .7em;
+    font-weight: 500;
+    margin: 0;
+    border-radius: 5px;
+    position: relative;
+    padding: 1px;
+    left: 0;
+    border: solid rgb(8, 97, 41) 2px;
+    cursor: pointer;
+    outline: none;
+}
+.input-row-1{
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.input-row-2{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.input-row-3{
+    text-align: center;
+    position: relative;
+    top: 35%;
+    margin: 1.7% 0 0 0;
+}

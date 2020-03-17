@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Paul the Tutor's Quiz</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="title">
+            <p class="title-p">SAT Quiz</p>
+        </div>
+
+        <div class="question-1">
+            <div class="question-title-box">
+                <h1 class="question-title">1. Why should I practice the SAT?</h1>
+            </div>
+                <hr>
+            <ul>
+                <li><span class="options">A</span> <span class="options-questions">My parents said I should.</span></li>
+                <li><span class="options">B</span> <span class="options-questions">I want to be as prepared as possible for the test.</span></li>
+                <li><span class="options">C</span> <span class="options-questions">I should not study for the SAT.</span></li>
+                <li><span class="options">D</span> <span class="options-questions">All of the above.</span></li>
+            </ul>
+            <div class="row">
+                <input type="button" value="Submit" class="question-1-submit">
+            </div>
+        </div>
+
+        <div class="question-2">
+            <div class="question-title-box">
+                <h1 class="question-title">2. Can you take the SAT more than once?</h1>
+            </div>
+
+            <div class="input">
+                <div class="row-1">
+                    <label for="input-name" class="label">Your Answer Here:</label>
+                </div>
+
+                <div class="row-2">
+                    <input type="text" class="text-box">
+                </div>
+                    <div class="row-3">
+                        <input type="submit" value="Submit" class="submit">
+                    </div>
+            </div>
+        </div>
+
+        <div class="question-3">
+            <div class="question-title-box">
+                <h1 class="question-title">3. Upload a 1 minute video</h1>
+            </div>
+
+            <div class="input">
+                <div class="input-row-1">
+                    <p class="input-p">Submit a video explaining why the SAT is important to you.</p>
+                </div>
+
+                <div class="input-row-2">
+                    <form action="myfile">
+                        <input type="file" name="fileupload" value="fileupload" class="file-button"> 
+                        <div class="input-row-3">
+                            <input type="submit" value="Submit" class="submit"> 
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
