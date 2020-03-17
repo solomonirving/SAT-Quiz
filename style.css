@@ -47,9 +47,9 @@ li:hover{
     border-bottom-right-radius: 30px;
 }
 .question-1-submit{
-    font-size: .7em;
+    /* font-size: .7em; */
     font-weight: 500;
-    height: 3vh;
+    /* height: 3vh; */
     margin: 1% 0 4% 0;
     border-radius: 5px;
     border: solid gray 1px;
@@ -125,14 +125,19 @@ li{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-.input{
-    height: 25vh;
+.input-1{
+    height: 60vh;
+    overflow: hidden;
+    padding: 1%;
+    white-space: nowrap;
 }
-
+.input-2{
+    height: 30vh;
+}
 .row-1{
     text-align: center;
     position: relative;
-    top: 20%;
+    top: 10%;
 }
 .label{
     font-size: 1em;
@@ -141,34 +146,37 @@ li{
 .row-2{
     text-align: center;
     position: relative;
-    top: 30%;
+    top: 15%;
 }
 .text-box{
-    width: 200px;
-    height: 3vh;
-    margin: 0;
+    width: 70%;
+    max-width: 70%;
+    height: 30vh;
+    max-height: 30vh;
+    margin: 0% 10%;
     border-radius: 5px;
     font-size: .8em;
     text-transform: uppercase;
     font-weight: 700;
     border: solid rgb(8, 97, 41) 2px;
-    padding: 0 5% 0 5%;
+    padding: 5%;
     outline: none;
 }
 .row-3{
     text-align: center;
     position: relative;
-    top: 40%;
+    top: 20%;
 }
 .submit{
     font-size: .7em;
     font-weight: 500;
-    height: 3vh;
-    margin: 0;
+    /* height: 30vh; */
+    /* margin: 0; */
     border-radius: 5px;
     border: solid gray 1px;
     cursor: pointer;
     outline: none;
+    position: sticky;
 }
 .question-3{
     grid-area: question-3;
@@ -196,6 +204,7 @@ li{
     position: relative;
     padding: 1px;
     left: 0;
+    height: auto;
     border: solid rgb(8, 97, 41) 2px;
     cursor: pointer;
     outline: none;
@@ -215,4 +224,28 @@ li{
     position: relative;
     top: 35%;
     margin: 1.7% 0 0 0;
+}
+
+@media only screen and (max-device-width: 850px) and (orientation: landscape) {
+    .options{
+        border: solid #996d05 2px;
+        background: #996d05;
+        font-weight: bold;
+        color: white;
+        border-radius: 50%;
+        padding: 5px 10px;
+        font-size: .3rem;
+        text-align: left;
+        margin: 2% 2% 2% 2%;
+        position: relative;
+        left: -1.5%;
+        height: auto;
+        width: auto;
+    }
+    .input-1{
+        height: 80vh;
+    }
+    .input-2{
+        height: 40vh;
+    }
 }
