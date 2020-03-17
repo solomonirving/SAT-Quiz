@@ -226,6 +226,15 @@ li{
     margin: 1.7% 0 0 0;
 }
 
+@media only screen and (max-device-width: 850px) {
+    .input-1{
+        height: 40vh;
+    }
+    .input-2{
+        height: 30vh;
+    }
+}
+
 @media only screen and (max-device-width: 850px) and (orientation: landscape) {
     .options{
         border: solid #996d05 2px;
